@@ -1,0 +1,118 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section styling */
+header {
+    background: #090d4a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Styling for team logo image */
+.team-logo {
+    width: 150px; /* Adjust the size as needed */
+    margin-top: 10px;
+}
+
+/* Menu button styling */
+header nav {
+    margin-top: 10px;
+}
+
+header nav button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+header nav button:hover {
+    background: #0056b3;
+}
+
+/* Flex container for team bios and vision sections */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Card styling for individual team bios */
+.card {
+    background: rgb(197, 215, 245);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+/* Initially hide bio details */
+.bio {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Button styling */
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+/* --- MINNA SIDDIQUI'S UNIQUE STYLING ONLY --- */
+
+/* 1. Unique Style for Minna's Card Container */
+#minna-card {
+    background-color: #f7e6ff; /* Light lavender background for Minna only */
+    border: 3px solid #8e44ad; /* Deep purple border */
+    /* You can override any general `.card` styles here */
+}
+
+/* 2. Unique Style for Minna's NAME (H2) */
+#minna-card h2 {
+    color: #4a235a; /* Darker text color for the name */
+    font-family: 'Times New Roman', serif; /* A different font style */
+}
+
+/* 3. Unique Style for Minna's Simple Collage */
+#minna-card .simple-collage {
+    /* Target the collage INSIDE Minna's card */
+    background-color: rgba(142, 68, 173, 0.1); /* Very light purple background */
+    border-radius: 10px;
+}
+
+/* 4. Unique Hover Effect */
+#minna-card:hover {
+    /* Override the general hover and add a unique one */
+    transform: rotateZ(-1deg) scale(1.03); /* Tilts and scales slightly */
+    box-shadow: 0 8px 15px rgba(142, 68, 173, 0.5);
+}

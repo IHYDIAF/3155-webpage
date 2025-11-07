@@ -8,7 +8,7 @@ body {
 
 /* Header section styling */
 header {
-    background: #333;
+    background: #090d4a;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -50,7 +50,7 @@ header nav button:hover {
 
 /* Card styling for individual team bios */
 .card {
-    background: white;
+    background: rgb(197, 215, 245);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -74,6 +74,8 @@ h2 {
     margin-top: 10px;
     color: #555;
 }
+/* show only the active bio */
+.bio.open { display: block; }
 
 /* Button styling */
 button {
@@ -87,4 +89,59 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+/* --- MINNA SIDDIQUI'S UNIQUE STYLING ONLY --- */
+
+/* Unique Style for Minna's Card */
+#minna-card {
+    background-color: #f7e6ff; /* Light lavender background */
+    border: 3px solid #8e44ad; /* Deep purple border */
+}
+
+/* Unique Style for Minna's Name (H2) */
+#minna-card h2 {
+    color: #4a235a; /* Darker text color for the name */
+    font-family: 'Times New Roman', serif; /* A different font style */
+}
+
+/* Unique Style for Minna's  Collage */
+#minna-card .simple-collage {
+    /* Target the collage INSIDE Minna's card */
+    background-color: rgba(142, 68, 173, 0.1); /* Light purple */
+    border-radius: 10px;
+}
+
+/* Unique Hover Effect */
+#minna-card:hover {
+    /* Override the general hover and add a unique one */
+    transform: rotateZ(-1deg) scale(1.03); /* Tilts and scales slightly */
+    box-shadow: 0 8px 15px rgba(142, 68, 173, 0.5);
+}
+
+/* --- AAYUSH NIROULA'S UNIQUE STYLING ONLY --- */
+
+/* Unique Style for Aayush's Card */
+#aayush-card {
+    background-color: #e3ecff; /* Soft tech blue background */
+    border: 3px solid #004aad; /* Deep royal blue border */
+}
+
+/* Unique Style for Aayush's Name (H2) */
+#aayush-card h2 {
+    color: #002c6e; /* Navy blue text for the name */
+    font-family: 'Segoe UI', sans-serif; /* Clean modern font */
+    letter-spacing: 0.5px;
+}
+
+/* Unique Style for Aayush's Collage */
+#aayush-card .simple-collage {
+    background-color: rgba(0, 74, 173, 0.1); /* Light blue tint background */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Unique Hover Effect */
+#aayush-card:hover {
+    transform: rotateZ(1deg) scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 74, 173, 0.5);
 }
