@@ -74,6 +74,8 @@ h2 {
     margin-top: 10px;
     color: #555;
 }
+/* show only the active bio */
+.bio.open { display: block; }
 
 /* Button styling */
 button {
@@ -114,4 +116,32 @@ button:hover {
     /* Override the general hover and add a unique one */
     transform: rotateZ(-1deg) scale(1.03); /* Tilts and scales slightly */
     box-shadow: 0 8px 15px rgba(142, 68, 173, 0.5);
+}
+
+/* --- AAYUSH NIROULA'S UNIQUE STYLING ONLY --- */
+
+/* Unique Style for Aayush's Card */
+#aayush-card {
+    background-color: #e3ecff; /* Soft tech blue background */
+    border: 3px solid #004aad; /* Deep royal blue border */
+}
+
+/* Unique Style for Aayush's Name (H2) */
+#aayush-card h2 {
+    color: #002c6e; /* Navy blue text for the name */
+    font-family: 'Segoe UI', sans-serif; /* Clean modern font */
+    letter-spacing: 0.5px;
+}
+
+/* Unique Style for Aayush's Collage */
+#aayush-card .simple-collage {
+    background-color: rgba(0, 74, 173, 0.1); /* Light blue tint background */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Unique Hover Effect */
+#aayush-card:hover {
+    transform: rotateZ(1deg) scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 74, 173, 0.5);
 }
