@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* General page styling */
 body {
     font-family: Arial, sans-serif;
@@ -144,4 +146,31 @@ button:hover {
 #aayush-card:hover {
     transform: rotateZ(1deg) scale(1.03);
     box-shadow: 0 8px 15px rgba(0, 74, 173, 0.5);
+}
+
+/* --- MINNA SIDDIQUI'S UNIQUE STYLING ONLY --- */
+
+/* Unique Style for Josh's Card */
+#jsoh-card {
+    background-color: #e6ffe9; /* Light green background */
+    border: 3px solid #0b5808; /* Deep green border */
+}
+
+/* Unique Style for Josh's Name (H2) */
+#jsoh-card h2 {
+    color: #4a235a; /* Darker text color for the name */
+    font-family: 'Roboto', sans-serif; /* A different font style */
+}
+
+/* Unique Style for Josh's  Collage */
+#jsoh-card .simple-collage {
+    background-color: rgba(80, 200, 80, 0.1); /* Light green */
+    border-radius: 10px;
+}
+
+/* Unique Hover Effect */
+#jsoh-card:hover {
+    /* Override the general hover and add a unique one */
+    transform: rotateZ(-1deg) scale(1.03); /* Tilts and scales slightly */
+    box-shadow: 0 8px 15px rgba(80, 200, 80, 0.5);
 }
