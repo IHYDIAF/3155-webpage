@@ -174,3 +174,41 @@ button:hover {
     transform: rotateZ(-1deg) scale(1.03); /* Tilts and scales slightly */
     box-shadow: 0 8px 15px rgba(80, 200, 80, 0.5);
 }
+
+/* --- KALEB MCAULIFFE'S UNIQUE STYLING ONLY --- */
+
+/* Unique style for Kaleb's card */
+#kaleb-card {
+    background-color: #e8f5ff;        /* Very light blue background */
+    border: 3px solid #4da3ff;        /* Light/medium blue border */
+}
+
+/* Unique style for Kaleb's name (H2) */
+#kaleb-card h2 {
+    color: #155a9c;                   /* Deeper blue for the name */
+    font-family: 'Segoe UI', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Optional: tweak the short role/description text */
+#kaleb-card p {
+    color: #2b6ea8;
+}
+
+/* Unique style for Kaleb's collage */
+#kaleb-card .simple-collage {
+    background-color: rgba(77, 163, 255, 0.12); /* Light blue tint */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Optional: make his collage images slightly rounded */
+#kaleb-card .simple-collage img {
+    border-radius: 8px;
+}
+
+/* Unique hover effect for Kaleb */
+#kaleb-card:hover {
+    transform: translateY(-3px) scale(1.04);    /* Slight lift + scale */
+    box-shadow: 0 8px 15px rgba(21, 90, 156, 0.35);
+}
