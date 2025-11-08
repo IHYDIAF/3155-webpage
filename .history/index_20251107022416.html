@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Bio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+<header>
+    <h1>Meet Our Team</h1>
+    <!-- Example team logo -->
+    <img src="img/Team Umizoomi!.png" alt="Team Logo" class="team-logo">
+
+    <!-- Navigation menu to switch between sections -->
+    <nav>
+        <button onclick="showSection('bios')">Team Bios</button>
+        <button onclick="showSection('vision')">Team Vision</button>
+    </nav>
+</header>
+
+<!-- Team bios section (default section) -->
+<div id="bios" class="container">
+    <!-- Each card represents an individual team member -->
+    <div class="card" id="minna-card">
+        <h2>Minna Siddiqui</h2>
+        <p>Junior Computer Science Student</p>
+        <button onclick="toggleBio('bio1')">Show Bio</button>
+        <div id="bio1" class = "bio">
+            <p>Minna is a skilled CS student with a concentration in data science and minor in MIS. She is passionate about using machine learning to solve real-world problems.</p>
+            <h3>My Inspirations 🧠</h3>
+            <div class="simple-collage">
+               <img src="img/code-python.jpg" alt="Python" style ="width: 100px;">
+               <img src="img/Cup-Of-Creamy-Coffee.png" alt="Coffee" style ="width: 100px;">
+               <img src="img/pakistan.jpg" alt="Travel" style="width: 100px;">
+               <img src="img/reading.jpg" alt="Reading" style="width: 100px;">
+            <p class="collage-links">
+                <a href="https://github.com/minnasiddiqui" target="_blank">My GitHub</a>
+                <a href="https://www.khanacademy.org/" target="_blank">Learning Resource</a>
+            </p>
+            </div>
+        </div>
+    </div>
+     
+    <div class="card">
+        <h2>Jane Smith</h2>
+        <p>Backend Developer</p>
+        <button onclick="toggleBio('bio2')">Show Bio</button>
+        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
+    </div>
+    <div class="card">
+        <h2>Emily Johnson</h2>
+        <p>UI/UX Designer</p>
+        <button onclick="toggleBio('bio3')">Show Bio</button>
+        <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+    </div>
+</div>
+
+<!-- Team vision/mission statement section (hidden by default) -->
+<div id="vision" class="container" style="display: none;">
+    <h2>Our Mission Statement</h2>
+    <p>As computer scientists, our team is committed to applying courage, focus, and technical excellence to solve complex problems. Our strength lies in our open and transparent communication, ensuring every solution we deliver is robust, scalable, and reflective of our collective expertise in coding and design.</p>
+    <h3> Team Rules</h3> <ul class="team-rules">
+        <li><strong>Transparency & Openness:</strong> If you feel uncertainty** about your work, or if you are unable to contribute due to any circumstance, let other team members know **as soon as possible**. This immediate communication makes the flow of work much easier for everybody involved.</li>
+        <li><strong>Commitment & Focus (Just Show Up):</strong> We maintain mutual **Commitment** to the common goal by being equally motivated and actively present. We will use our shared external platform for open communication and scheduling additional meetings **AS NEEDED**.</li>
+        <li><strong>Courage & Handling Delays:</strong> If a member is **falling behind schedule**, they must exhibit **Courage** by immediately raising the issue (**Transparency**). The rest of the team will then collectively **Focus** on re-prioritizing tasks and providing support to get the work back on track.</li>
+        <li><strong>Respect & Persistence (Uncooperative Member):</strong> We approach collaboration with **Respect**. If dealing with an **uncooperative team member**, we will consistently reach out to them to see if there are ways we may be able to empower them to complete their work. Communication is key!</li>
+    </ul>
+</div>
+
+<script src="script.js"></script> <!-- Link to external JavaScript file -->
+
+</body>
+</html>
